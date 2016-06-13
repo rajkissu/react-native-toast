@@ -1,9 +1,7 @@
 'use strict';
 
-var React = require('react-native');
-var {
-    NativeModules
-} = React;
+var React = require('react');
+import { NativeModules } from 'react-native';
 
 var RCTToast= NativeModules.Toast;
 var Toast = {};
